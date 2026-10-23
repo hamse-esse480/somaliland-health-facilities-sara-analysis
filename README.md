@@ -40,6 +40,13 @@ Missing information is substantial for several fields. For example, location is 
 
 The district count is not independently verified in this update. The earlier audit identified a 28-versus-29 discrepancy; reconcile the distinct district count from the workbook before publication.
 
+## Project Files & Dashboard Preview
+
+- **Dashboard preview:** [SARA Survey Dashboard](./Dashboard1%20.jpg)
+- **Excel workbook:** [Data Cleaning Workbook](./data%20cleaning%20proj1.xlsx)
+
+The dashboard image is a JPG; this is acceptable for a preview. For future screenshots with small labels or dense charts, PNG is generally preferable.
+
 ## Project Purpose
 
 This project demonstrates practical skills in health data management, data validation, descriptive analysis, and communicating data-quality limitations using Microsoft Excel.
