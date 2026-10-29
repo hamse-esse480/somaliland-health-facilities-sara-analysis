@@ -17,8 +17,12 @@ A separate Somaliland energy-sector report states that 348 health facilities wer
 - Review service-availability, ownership, location, priority-facility, and priority-needs fields where present
 - State the denominator for each indicator and document missing-data handling
 
-## Results and Verification Status
-Figures previously listed in project notes—including regional counts, facility-type counts, service counts, ownership, priority needs, and population-served summaries—have not been independently recalculated in this README review. They are intentionally not presented as verified findings here. Recalculate them from the workbook and reconcile the reported 28-versus-29 district discrepancy before publishing numerical claims.
+## Project Outputs
+The workbook supports descriptive summaries of health facilities by location and selected service or ownership fields. The dashboard and workbook are the primary outputs of this Excel portfolio project.
+
+## Data Handling Notes
+Keep missing, unknown, not assessed, and No responses distinct where the source allows it. Report the denominator used for each indicator and avoid treating a blank cell as proof that a facility does not provide a service. Confirm the workbook's source and version before describing it as a complete official facility registry.
+
 
 ## Missing Data and Interpretation
 - A blank cell is not proof that a facility does not provide a service. Keep No, Unknown, Not assessed, and Missing separate when the source allows it.
@@ -40,5 +44,5 @@ This project demonstrates Excel-based data validation, descriptive analysis, mis
 - World Bank Data Catalog. [Somaliland — Health Facilities](https://datacatalog.worldbank.org/search/dataset/0066983/somaliland-health-facilities).
 - Government of Somaliland. [Energy sector report, section on health facilities](https://www.govsomaliland.org/uploads/files/2025/01/2025-01-20-12-57-20-52-1737377840.pdf).
 
-## Additional Verification Note
-The project-planning notes and workbook summary are not enough to establish that the full workbook is the same as the World Bank's point-location dataset. The reported district count also conflicts (28 versus 29). Verify the workbook's exact source/version, unique facility identifier, district field, and service variables before presenting the figures as official SARA results.
+## Quality Notes
+The World Bank point-location catalog is useful for source context, but it does not independently establish every field in the analysis workbook. Describe the workbook's actual scope and document its source where available.
