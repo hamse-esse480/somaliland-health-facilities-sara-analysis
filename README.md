@@ -1,51 +1,41 @@
 # Somaliland Health Facilities SARA Survey Analysis
 
 ## Project Overview
-An Excel-based descriptive analysis of a Somaliland health-facility Service Availability and Readiness Assessment (SARA) dataset. The project explores facility distribution and selected service-availability, ownership, location, and priority-needs fields.
-
-The current project title identifies the dataset as the 2022 SARA survey. Confirm the year and official source against the original dataset documentation before using this project as an official survey estimate.
+An Excel-based descriptive analysis of a Somaliland health-facility dataset described in the project materials as SARA-related. The workbook explores facility distribution and selected service, ownership, location, and priority-needs fields.
 
 ## Tool
 - Microsoft Excel
 
-## Dataset and Coverage
-The current workbook summary reports 348 facility records across six regions. It reports 28 districts, but an earlier project audit identified a possible 28-versus-29 discrepancy. The district count is therefore not presented as verified; reconcile distinct district names or codes in the workbook first.
+## Dataset and Source Status
+The World Bank catalog includes a public dataset named [Somaliland — Health Facilities](https://datacatalog.worldbank.org/search/dataset/0066983/somaliland-health-facilities). Its catalog description says it contains point locations of health facilities collected by the SARA survey and the Government of Somaliland. This metadata **does not, by itself, verify the service-availability, ownership, or priority-needs variables in this repository's workbook**.
+
+A separate Somaliland energy-sector report states that 348 health facilities were geotagged for its analysis using SARA data and Government of Somaliland information. That supports the provenance of a 348-facility geospatial compilation, but it does not validate every count or field in this workbook. The original workbook's exact source file, survey year, data dictionary, and version still need to be documented.
 
 ## Analysis Workflow
-- Review and validate records and field values
+- Review field names, category labels, duplicates, and missing values
 - Summarize facilities by region and facility type
-- Review available information on maternal care, TB treatment, ownership, location, priority facilities, priority needs, and population served
-- Identify missing information and document implications for interpretation
+- Review service-availability, ownership, location, priority-facility, and priority-needs fields where present
+- State the denominator for each indicator and document missing-data handling
 
-## Findings Reported in the Current Workbook Summary
-The following figures are carried over from the existing project summary and should be checked against the workbook before external reporting:
-
-- **Regional distribution:** Marodi Jeex 82, Sanaag 65, Sool 64, Togdheer 52, Awdal 51, and Saaxil 34 (reported total: 348).
-- **Facility type:** Health Centers 185, Health Posts 129, Hospitals 32, and District Hospitals 2 (reported total: 348).
-- **Maternal care:** 84 facilities recorded as providing maternal care; 264 records with missing information.
-- **TB treatment:** 13 facilities recorded as providing TB treatment; 335 records with missing information.
-- **Ownership:** 132 facilities recorded as MOHD-owned; 216 records with missing ownership information.
-- **Priority facilities:** 132 records classified as priority facilities.
-- **Priority needs:** 98 priority facilities reportedly required medical equipment, sterilization, vaccine refrigeration, and lighting; 34 reportedly required lighting.
-- **Location:** 216 of 348 records reportedly had missing location information.
-- **Population served:** For 38 records with available data, the reported mean is approximately 13,665, median 12,692, and range 1,513–29,000.
-
-These are workbook-summary figures, not independently recalculated estimates. Confirm category definitions, totals, duplicates, and denominators before presenting them as final results.
+## Results and Verification Status
+Figures previously listed in project notes—including regional counts, facility-type counts, service counts, ownership, priority needs, and population-served summaries—have not been independently recalculated in this README review. They are intentionally not presented as verified findings here. Recalculate them from the workbook and reconcile the reported 28-versus-29 district discrepancy before publishing numerical claims.
 
 ## Missing Data and Interpretation
-Missing information is substantial in several fields according to the current summary: location 216/348 (62.1%), maternal care 264/348 (75.9%), TB treatment 335/348 (96.3%), and ownership 216/348 (62.1%). Recalculate these values from the workbook.
-
-A blank cell is not proof that a facility does not provide a service. Distinguish No, Unknown, Not assessed, and Missing wherever the questionnaire or codebook permits. Service-availability percentages should use an explicitly stated denominator and should not silently exclude missing records.
+- A blank cell is not proof that a facility does not provide a service. Keep No, Unknown, Not assessed, and Missing separate when the source allows it.
+- Report both counts and denominators for service indicators; do not silently exclude missing records.
+- Check for duplicate facilities and inconsistent region/district spellings.
+- Do not generalize beyond the documented coverage or treat the workbook as a complete national facility registry without evidence.
 
 ## Project Files
 - [Dashboard preview](<./Dashboard1%20.jpg>)
 - [Excel data-cleaning workbook](<./data%20cleaning%20proj1.xlsx>)
 
 ## Limitations
-- Confirm the official source, survey year, coverage approach, and definitions for facility types and services.
-- Reconcile the district count and check for duplicate facility records.
-- Document missing-data handling and denominator choices.
-- Do not generalize beyond the survey's documented coverage without justification.
+The precise source/version, survey year, sampling/coverage approach, service definitions, and missing-data rules must be documented from the original dataset materials. The World Bank point-location metadata is not a substitute for the full source questionnaire or workbook codebook.
 
 ## Project Purpose
 This project demonstrates Excel-based data validation, descriptive analysis, missing-data review, and communication of health-service data limitations.
+
+## References
+- World Bank Data Catalog. [Somaliland — Health Facilities](https://datacatalog.worldbank.org/search/dataset/0066983/somaliland-health-facilities).
+- Government of Somaliland. [Energy sector report, section on health facilities](https://www.govsomaliland.org/uploads/files/2025/01/2025-01-20-12-57-20-52-1737377840.pdf).
