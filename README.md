@@ -39,3 +39,6 @@ This project demonstrates Excel-based data validation, descriptive analysis, mis
 ## References
 - World Bank Data Catalog. [Somaliland — Health Facilities](https://datacatalog.worldbank.org/search/dataset/0066983/somaliland-health-facilities).
 - Government of Somaliland. [Energy sector report, section on health facilities](https://www.govsomaliland.org/uploads/files/2025/01/2025-01-20-12-57-20-52-1737377840.pdf).
+
+## Additional Verification Note
+The project-planning notes and workbook summary are not enough to establish that the full workbook is the same as the World Bank's point-location dataset. The reported district count also conflicts (28 versus 29). Verify the workbook's exact source/version, unique facility identifier, district field, and service variables before presenting the figures as official SARA results.
